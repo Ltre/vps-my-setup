@@ -1,0 +1,7 @@
+type: php
+path: /home/wwwroot/file.larele.com
+port: 80
+domain: file.larele.com
+nginx: file.larele.com.conf
+machine: linode tokyo
+

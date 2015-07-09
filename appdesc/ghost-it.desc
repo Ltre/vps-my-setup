@@ -1,0 +1,7 @@
+type: node
+path: /root/mydir/nodeapp/ghost-it
+inner port: 2368
+nginx: 
+	note.larele.com.conf  [conoHa tokyo]
+	notetest.larele.com.conf  [linode tokyo]
+
