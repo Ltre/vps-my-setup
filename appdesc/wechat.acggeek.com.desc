@@ -1,0 +1,6 @@
+type: php
+path: /home/wwwroot/wechat.acggeek.com
+port: 80
+nginx: /usr/local/nginx/conf/vhost/wechat.acggeek.com.conf
+machine: conoHa Tokyo
+

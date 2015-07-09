@@ -1,0 +1,6 @@
+type: php
+path: /home/wwwroot/www.acggeek.com
+port: 80
+nginx: /usr/local/nginx/conf/vhost/www.acggeek.com.conf
+machine: conoHa Tokyo
+
