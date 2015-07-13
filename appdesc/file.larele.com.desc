@@ -4,4 +4,5 @@ port: 80
 domain: file.larele.com
 nginx: file.larele.com.conf
 machine: linode tokyo
+deploy: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/deploy/file.larele.com.txt
 
