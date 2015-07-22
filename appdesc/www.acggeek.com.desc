@@ -3,4 +3,4 @@ path: /home/wwwroot/www.acggeek.com
 port: 80
 nginx: /usr/local/nginx/conf/vhost/www.acggeek.com.conf
 machine: conoHa Tokyo
-deploy: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/deploy/www.acggeek.com.txt
+deploy: /root/mydir/mysetup/vps-my-setup/conoha/conoha-tokyo-49/deploy/www.acggeek.com.txt
