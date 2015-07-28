@@ -4,7 +4,7 @@
 mkdir /home/wwwbackup/
 cd /home/wwwroot/
 tar -cf /home/wwwbackup/www.acggeek.com.tar  www.acggeek.com/
-git clone https://github.com/Ltre/AcgGeek.git
+git clone https://git.oschina.net/Ltre/AcgGeek.git
 rm -f -r AcgGeek/core/data/
 mv www.acggeek.com/core/data/  AcgGeek/core/data/
 mv www.acggeek.com/  www.acggeek.com.trash/
@@ -15,7 +15,7 @@ rm -f -r www.acggeek.com.trash/
 
 
 # pull方式更新
-#（前置命令：mkdir /home/wwwbackup; mkdir /home/wwwsrc; cd /home/wwwsrc; git clone https://github.com/Ltre/AcgGeek.git ）
+#（前置命令：mkdir /home/wwwbackup; mkdir /home/wwwsrc; cd /home/wwwsrc; git clone https://git.oschina.net/Ltre/AcgGeek.git ）
 
 
 cd /home/wwwsrc/AcgGeek
