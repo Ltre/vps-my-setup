@@ -1,0 +1,8 @@
+type: php
+path: /home/wwwroot/dev.larele.com
+port: 80
+domain: dev.larele.com *.dev.larele.com
+nginx: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/nginx/dev.larele.com.conf
+machine: linode tokyo
+deploy: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/deploy/dev.larele.com.txt
+
