@@ -1,4 +1,4 @@
-type: uknow
+type: static && php upload
 path: /home/wwwroot/res.miku.us
 port: 80
 nginx: /usr/local/nginx/conf/vhost/res.miku.us.conf
