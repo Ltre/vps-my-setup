@@ -1,0 +1,8 @@
+type: php
+path: /home/wwwroot/doc.yooo.moe
+port: 80
+domain: doc.yooo.moe
+nginx: /root/mydir/mysetup/vps-my-setup/conoha/conoha-tokyo-49/nginx/doc.yooo.moe.conf
+machine: conoha tokyo
+deploy: /home/wwwroot/doc.yooo.moe/gitpull.sh
+need update 180.97.163.93 git.oschina.net
