@@ -4,3 +4,5 @@ inner port: 10086
 nginx: nodedev.larele.com.conf
 domain: nodedev.larele.com
 machine: linode tokyo
+
+[already migrated!]
