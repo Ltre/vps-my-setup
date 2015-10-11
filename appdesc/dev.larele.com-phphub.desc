@@ -6,3 +6,4 @@ nginx: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/nginx/dev.larele
 machine: linode tokyo
 deploy: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/deploy/dev.larele.com.txt
 
+[alrady migrated!]
