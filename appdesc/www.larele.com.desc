@@ -6,3 +6,5 @@ nginx: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/nginx/www.larele
 machine: linode tokyo
 deploy: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/deploy/www.larele.com.txt(需要定期更新hosts
 180.97.163.93 git.oschina.net)
+
+[already migrated!]
