@@ -4,6 +4,6 @@ port: 80
 domain: www.yooo.moe
 nginx: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/nginx/www.yooo.moe.conf
 machine: linode tokyo
-deploy: /home/wwwroot/www.yooo.moe/gitpush.sh
+deploy: none
 
 [already migrated!]
