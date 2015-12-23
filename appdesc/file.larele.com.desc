@@ -3,7 +3,7 @@ path: /home/wwwroot/file.larele.com
 port: 80
 domain: file.larele.com
 nginx: file.larele.com.conf
-machine: linode tokyo
-deploy: /root/mydir/mysetup/vps-my-setup/linode/linode-tokyo-169/deploy/file.larele.com.txt
+machine: conoha tokyo
+deploy: /root/mydir/mysetup/vps-my-setup/conoha/conoha-tokyo-49/deploy/file.larele.com.txt
 
 [already migrated!]
