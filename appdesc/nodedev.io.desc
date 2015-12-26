@@ -3,6 +3,6 @@ path: /root/mydir/nodeapp/nodedev.io
 inner port: 10086
 nginx: nodedev.larele.com.conf
 domain: nodedev.larele.com
-machine: linode tokyo
+machine: conoha tokyo
 
 [already migrated!]
