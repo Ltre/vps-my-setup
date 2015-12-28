@@ -4,4 +4,4 @@ port: 80
 nginx: /usr/local/nginx/conf/vhost/res.miku.us.conf
 machine: conoha Tokyo
 deploy: file struct from git.oschina.com/Ltre/resmikuus.git; 
-	run shell: chown -hR www /home/wwwroot/res.miku.us/img/
+	run shell: chown -hR www /home/wwwroot/res.miku.us/res/img/
