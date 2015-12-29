@@ -1,5 +1,5 @@
 type: node
 path: /root/mydir/nodeapp/web-control.io
 port: 3000
-domain: io.iio.ooo
+domain: io.iio.ooo -> io.yooo.moe
 machine: linode tokyo + conoHa tokyo
