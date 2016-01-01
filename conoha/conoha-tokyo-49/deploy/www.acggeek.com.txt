@@ -1,5 +1,7 @@
 
 # clone方式更新
+#（前置命令：cd /home/wwwroot/; git clone https://github.com/Ltre/AcgGeek.git; rm -r -f www.acggeek.com/; mv AcgGeek/ www.acggeek.com/）
+
 
 mkdir /home/wwwbackup/
 cd /home/wwwroot/
