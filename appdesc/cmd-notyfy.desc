@@ -1,0 +1,10 @@
+desc: 自用简单异步任务或消息通知系统
+type: nodejs
+machine: conoha tokyo
+deploy dir: /root/mydir/nodeapp/cmd-notify
+source: https://github.com/Ltre/cmd-notify.git
+port: 1234
+host: 绑定当前访问IP
+nginx: no
+iptables: -A INPUT -p tcp -m state --state NEW -m tcp --dport 1234 -j ACCEPT
+domain: 暂无 
