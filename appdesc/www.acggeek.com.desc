@@ -1,4 +1,5 @@
 type: php
+domain: www.acggeek.com, acggeek.com, cms.acggeek.com
 path: /home/wwwroot/www.acggeek.com
 port: 80
 nginx: /usr/local/nginx/conf/vhost/www.acggeek.com.conf
