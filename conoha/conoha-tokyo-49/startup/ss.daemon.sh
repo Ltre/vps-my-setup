@@ -14,6 +14,7 @@ do
         $pythonBin $ssserverBin -c $ssConfigFile -d start
         echo $pythonBin $ssserverBin -c $ssConfigFile -d start
     fi
+    sleep 2s
 done
 
 #To stop, execute it:
