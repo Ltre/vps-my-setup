@@ -1,0 +1,40 @@
+[PM2] Spawning PM2 daemon
+[PM2] PM2 Successfully daemonized
+[PM2] Starting /root/mydir/nodeapp/FakerSSH/index.js in fork_mode (1 instance)
+[PM2] Done.
+┌──────────┬────┬──────┬───────┬────────┬─────────┬────────┬────────────┬──────────┐
+│ App name │ id │ mode │ pid   │ status │ restart │ uptime │ memory     │ watching │
+├──────────┼────┼──────┼───────┼────────┼─────────┼────────┼────────────┼──────────┤
+│ FakerSSH │ 0  │ fork │ 30707 │ online │ 0       │ 0s     │ 7.445 MB   │ disabled │
+└──────────┴────┴──────┴───────┴────────┴─────────┴────────┴────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+[PM2] Starting /root/mydir/nodeapp/web-control.io/io.js in fork_mode (1 instance)
+[PM2] Done.
+┌────────────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────────────┬──────────┐
+│ App name       │ id │ mode │ pid   │ status │ restart │ uptime │ memory      │ watching │
+├────────────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────────────┼──────────┤
+│ FakerSSH       │ 0  │ fork │ 30707 │ online │ 0       │ 0s     │ 14.855 MB   │ disabled │
+│ web-control.io │ 1  │ fork │ 30733 │ online │ 0       │ 0s     │ 4.398 MB    │ disabled │
+└────────────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+[PM2] Starting /root/mydir/nodeapp/ghost-it/index.js in fork_mode (1 instance)
+[PM2] Done.
+┌────────────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────────────┬──────────┐
+│ App name       │ id │ mode │ pid   │ status │ restart │ uptime │ memory      │ watching │
+├────────────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────────────┼──────────┤
+│ FakerSSH       │ 0  │ fork │ 30707 │ online │ 0       │ 0s     │ 14.855 MB   │ disabled │
+│ web-control.io │ 1  │ fork │ 30733 │ online │ 0       │ 0s     │ 23.703 MB   │ disabled │
+│ ghost-it       │ 2  │ fork │ 30757 │ online │ 0       │ 0s     │ 5.699 MB    │ disabled │
+└────────────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
+[PM2] Starting /root/mydir/nodeapp/cmd-notify/index.js in fork_mode (1 instance)
+[PM2] Done.
+┌────────────────┬────┬──────┬───────┬────────┬─────────┬────────┬─────────────┬──────────┐
+│ App name       │ id │ mode │ pid   │ status │ restart │ uptime │ memory      │ watching │
+├────────────────┼────┼──────┼───────┼────────┼─────────┼────────┼─────────────┼──────────┤
+│ FakerSSH       │ 0  │ fork │ 30707 │ online │ 0       │ 0s     │ 14.855 MB   │ disabled │
+│ web-control.io │ 1  │ fork │ 30733 │ online │ 0       │ 0s     │ 23.703 MB   │ disabled │
+│ ghost-it       │ 2  │ fork │ 30757 │ online │ 0       │ 0s     │ 30.047 MB   │ disabled │
+│ cmd-notify     │ 3  │ fork │ 30781 │ online │ 0       │ 0s     │ 6.527 MB    │ disabled │
+└────────────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────────────┴──────────┘
+ Use `pm2 show <id|name>` to get more details about an app
