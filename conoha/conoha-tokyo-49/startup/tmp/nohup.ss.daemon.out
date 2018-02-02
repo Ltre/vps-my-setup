@@ -46,3 +46,9 @@ INFO: loading config from /etc/shadowsocks/config.json
 INFO: loading config from /etc/shadowsocks/config.json
 2018-01-31 03:34:01 INFO     loading libcrypto from libcrypto.so.10
 /usr/local/python/bin/python /usr/local/python/bin/ssserver -c /etc/shadowsocks/config.json -d start
+INFO: loading config from /etc/shadowsocks/config.json
+2018-02-01 03:38:02 INFO     loading libcrypto from libcrypto.so.10
+/usr/local/python/bin/python /usr/local/python/bin/ssserver -c /etc/shadowsocks/config.json -d start
+INFO: loading config from /etc/shadowsocks/config.json
+2018-02-02 03:19:02 INFO     loading libcrypto from libcrypto.so.10
+/usr/local/python/bin/python /usr/local/python/bin/ssserver -c /etc/shadowsocks/config.json -d start
