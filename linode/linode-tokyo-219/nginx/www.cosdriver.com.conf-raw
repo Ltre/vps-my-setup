@@ -15,7 +15,7 @@ server {
   server_name www.cosdriver.com cosdriver.com;
   access_log /home/wwwlogs/www.cosdriver.com_nginx.log combined;
   index index.html index.htm index.php;
-  root /home/wwwroot/cosdriver;
+  root /home/wwwroot/rev1rd50c;
   if ($ssl_protocol = "") { return 301 https://$host$request_uri; }
   if ($host != www.cosdriver.com) {  return 301 $scheme://www.cosdriver.com$request_uri;  }
   include /usr/local/nginx/conf/rewrite/other.conf;

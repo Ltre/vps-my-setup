@@ -15,7 +15,7 @@ server {
   server_name www.cosdriver.date cosdriver.date;
   access_log /home/wwwlogs/www.cosdriver.date_nginx.log combined;
   index index.html index.htm index.php;
-  root /home/wwwroot/cosdriver;
+  root /home/wwwroot/rev1rd50c;
   if ($ssl_protocol = "") { return 301 https://$host$request_uri; }
   if ($host != www.cosdriver.date) {  return 301 $scheme://www.cosdriver.date$request_uri;  }
   include /usr/local/nginx/conf/rewrite/other.conf;
