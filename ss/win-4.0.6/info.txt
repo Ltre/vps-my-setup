@@ -23,7 +23,10 @@
   "pixiv.net": 1,
   "cosdriver.com": 1,
   "cosdriver.date": 1,
-  "goo.gl": 1
+  "goo.gl": 1,
+  "tensorflow.org": 1,
+  "www.tensorflow.org": 1,
+  "dmm.com": 1
   
 
 
