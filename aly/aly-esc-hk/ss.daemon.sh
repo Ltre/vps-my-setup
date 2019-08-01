@@ -7,7 +7,7 @@ do
         ss_terminated=0
     done
     # 此处不用 ${#ss_pids[@]} == 0 判断。因永不为0，是个坑
-    if [ $teet_terminate == 1 ]; then
+    if [ $ss_terminated == 1 ]; then
         echo `date --date=now '+%Y-%m-%d %H:%M:%S %Z'`
         echo 'wake ss..'
         /bin/systemctl start shadowsocks.service
