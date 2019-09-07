@@ -1,0 +1,7 @@
+type: php
+path: /home/wwwroot/ltrebbs
+port: 80
+domain: bbs.rev1rd50c（化）
+nginx: /root/mydir/mysetup/vps-my-setup/conoha/conoha-tokyo-49/nginx/rev1rd50c/bbs.rev1rd50c*
+machine: lightsail tokyo
+deploy: github clone
