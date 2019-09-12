@@ -1,0 +1,7 @@
+type: php
+path: /home/wwwroot/rev1rd50c #没错，就是共享www的目录
+port: 80
+domain: lm.rev1rd50c（化）
+nginx: /root/mydir/mysetup/vps-my-setup/conoha/conoha-tokyo-49/nginx/rev1rd50c/lm.rev1rd50c*
+machine: lightsail tokyo
+deploy: github clone
