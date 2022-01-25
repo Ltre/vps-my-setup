@@ -1,9 +1,0 @@
-
-# for 911 pipe
-haproxy -f /etc/haproxy/haproxy.conf
-
-# for 11 pipe
-haproxy -f /etc/haproxy/haproxy.alyhk.conf
-
-# for 12 pipe
-haproxy -f /etc/haproxy/haproxy.txhk.conf

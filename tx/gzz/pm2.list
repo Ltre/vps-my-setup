@@ -1,0 +1,12 @@
+# 按需执行，哪个没在执行哪个
+
+NODE_ENV=production pm2 start /root/mydir/nodeapp/FakerSSH/index.js --name 'FakerSSH'
+
+NODE_ENV=production pm2 start /root/mydir/nodeapp/web-control.io/io.js --name 'web-control.io'
+
+pm2 start '/root/mydir/uncompress/frp/frp_0.38.0_linux_amd64/frps -c /root/mydir/uncompress/frp/frp_0.38.0_linux_amd64/frps.ini' --name 'frps'
+
+pm2 start '/root/mydir/uncompress/frp/frp_0.38.0_linux_amd64/frpc -c /root/mydir/uncompress/frp/frp_0.38.0_linux_amd64/frpc.ini' --name 'frpc'
+
+pm2 start syncthing
+

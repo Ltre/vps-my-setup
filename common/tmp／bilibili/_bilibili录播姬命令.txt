@@ -1,0 +1,9 @@
+/root/mydir/uncompress/BililiveRecorder-CLI-linux-x64/BililiveRecorder.Cli portable /root/tmp/bilibili/ #尾部可写房间号，用空格隔开
+
+
+例如：
+
+nohup /root/mydir/uncompress/BililiveRecorder-CLI-linux-x64/BililiveRecorder.Cli portable /root/tmp/bilibili/ 9115569 &
+
+
+更多说明：https://rec.danmuji.org/docs/cli/
