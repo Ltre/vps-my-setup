@@ -1,0 +1,2 @@
+# hk 转 tx-gg美国11端口
+haproxy -f /etc/haproxy/haproxy.cfg

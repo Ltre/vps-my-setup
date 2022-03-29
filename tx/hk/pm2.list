@@ -1,0 +1,16 @@
+pm2 start /root/mydir/nodeapp/FakerSSH/index.js --name "FakerSSH" 
+
+pm2 start "/root/mydir/uncompress/frp/frp_0.38.0_linux_amd64/frpc -c /root/mydir/uncompress/frp/frp_0.38.0_linux_amd64/frpc.ini" --name 'frpc-vi'
+
+# 特别注意：这条命令需要先 cd /root/mydir/uncompress/trojan 目录后再执行
+cd /root/mydir/uncompress/trojan
+pm2 start /root/mydir/uncompress/trojan/trojan --name "trojan" 
+
+# 特别注意：这条命令需要先 cd /root/mydir/uncompress/trojan-fw 目录后再执行
+cd /root/mydir/uncompress/trojan-fw
+pm2 start /root/mydir/uncompress/trojan-fw/trojan --name "trojan-FW911-gg" 
+
+# 特别注意；这条twitcast命令需要先 cd /root/tmp/twitcast/kana19930829 目录后再执行
+pm2 start "/root/tmp/prinsss/live-stream-recorder/record_twitcast.sh kana19930829 loop" --name "twc-kana19930829" 
+
+pm2 start /root/mydir/nodeapp/web-control.io/io.js --name "web-control.io" 
